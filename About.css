@@ -1,0 +1,89 @@
+	body {
+	    margin: 0px;
+	    background: url("imgs/SmiteBackground.jpg") repeat center;
+	    background-size: cover;
+		background-attachment: fixed;
+	}
+	.main-header {
+		display: block;
+		margin: auto;
+		width: 95%;
+		height: auto;
+	}
+	.main-header-title {
+	    text-align: center;
+	    font-size: 3.5em;
+	    font-family: Comic Sans MS;
+	    color: #E0AE2A;
+	    text-transform: uppercase;
+	    padding-left: 25px;
+	    text-shadow: 3px 2px gold;
+	}
+	.text-position {
+	    text-align: center;
+	    padding: 25px;
+	}
+	.text-position-2 {
+	    text-align: center;
+	    padding: 25px;
+	    margin: auto;
+	    width: 70%;
+	}
+	.nav-bar {
+	    margin: auto;
+	    padding-top: 10px;
+	    width: 100%;
+	    list-style-type: none;
+	}
+	.nav-header {
+		background: black;
+	    display: flex;
+	    height: 50px;
+	}
+	.nav-bar-link {
+	    margin: 15px;
+	    color: #878787;
+	    font-size: 24px;
+	}
+	.nav-bar-link:hover {
+	    color: white;
+		background: #000066;
+	}
+	.header-border {
+	    padding: 15px;
+	    width: 80%;
+	    color: White;
+	    margin: auto;
+	    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.8);
+	    transition: 0.3s;
+	    border-radius: 1px;
+	    display: block;
+	    background-color: #23248A;
+	}
+	.p-border {
+	    padding: 15px;
+	    width: 80%;
+	    color: Black;
+	    margin-bottom: 10px;
+	    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.8);
+	    transition: 0.3s;
+	    border-radius: 1px;
+	    display: block;
+	    background-color: #F8D23F;
+	}
+	.box {
+	    display: flex;
+	    width: 80%;
+	    margin: auto;
+	}
+	.card {
+	    margin: 15px;
+	    width: 100%;
+	    padding: 15px;
+	    text-align: center;
+	}
+	iframe {
+	    display: block;
+	    margin: auto;
+	    margin-bottom: 100px;
+	}
